@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+  redis:
+    image: "mongodb/mongodb-community-server"
