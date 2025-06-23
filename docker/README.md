@@ -2,6 +2,7 @@ https://docs.docker.com/build/concepts/dockerfile/
 
 https://docs.docker.com/docker-hub/quickstart/
 
+https://docs.docker.com/build/building/best-practices/
 
 docker build -t radshamila/nginx-custom .
 
