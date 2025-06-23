@@ -1,7 +1,7 @@
 # With the multi-threaded version, you ceded control over task scheduling to the operating system, so the final order seemed random.
 
-# runs on 5 threads
-# uses single cpu
+# runs on 5 threads; this is the max running and may exist more logically
+# may use multi cpu
 
 import threading
 import time
