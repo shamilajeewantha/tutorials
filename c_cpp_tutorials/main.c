@@ -11,5 +11,8 @@ int main() {
 
     printf("post from C!\n");
     do_post_request();
+
+    printf("imenc from C!\n");
+    opencv_image_encode();
     return 0;
 }

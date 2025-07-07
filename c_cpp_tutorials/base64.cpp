@@ -31,7 +31,7 @@
 
 */
 
-#include "main.h"
+#include "base64.h"
 
 #include <algorithm>
 #include <stdexcept>
