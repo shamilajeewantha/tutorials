@@ -1,1 +1,3 @@
 __pycache__/
+*.o
+c_cpp_tutorials/my_app
