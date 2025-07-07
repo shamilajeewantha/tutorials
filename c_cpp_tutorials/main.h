@@ -7,6 +7,8 @@ extern "C" {
 #endif
 
 void say_hello_from_cpp();  // callable from C
+void do_get_request();
+void do_post_request();
 
 #ifdef __cplusplus
 }
