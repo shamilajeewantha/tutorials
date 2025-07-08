@@ -9,11 +9,11 @@ int main() {
     printf("get from C!\n");
     do_get_request();
 
-    printf("post from C!\n");
-    do_post_request();
+    // printf("post from C!\n");
+    // do_post_request();
 
-    printf("imenc from C!\n");
-    opencv_image_encode();
+    // printf("imenc from C!\n");
+    // opencv_image_encode();
 
     printf("send dash from C!\n");
     send_dash();
