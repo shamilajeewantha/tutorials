@@ -15,8 +15,8 @@ using namespace cv;
 using json = nlohmann::json;
 using namespace std;
 
-void say_hello_from_cpp() {
-    std::cout << "Hello from C++!" << std::endl;
+void say_hello_from_cpp(const char* msg) {
+    std::cout << "Message from C++: " << msg << std::endl;
 }
 
 void do_get_request() {

@@ -6,7 +6,7 @@ extern "C" {
 #endif
 
 // Functions callable from C
-void say_hello_from_cpp();
+void say_hello_from_cpp(const char* msg);
 void do_get_request();
 void do_post_request();
 void opencv_image_encode();

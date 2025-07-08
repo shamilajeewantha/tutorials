@@ -4,7 +4,7 @@
 
 int main() {
     printf("Hello from C!\n");
-    say_hello_from_cpp();
+    say_hello_from_cpp("Hello from C!");
 
     printf("get from C!\n");
     do_get_request();
