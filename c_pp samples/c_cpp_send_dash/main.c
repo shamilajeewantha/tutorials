@@ -14,5 +14,9 @@ int main() {
 
     printf("imenc from C!\n");
     opencv_image_encode();
+
+    printf("send dash from C!\n");
+    send_dash();
     return 0;
+
 }

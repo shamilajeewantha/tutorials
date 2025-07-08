@@ -7,7 +7,7 @@ CFLAGS = -Wall -I./
 CPR_LIB = /usr/local/lib/libcpr.a
 
 # Link flags: curl, pthread, ssl, crypto (often needed for curl)
-LDFLAGS = -lcurl -lpthread -lssl -lcrypto `pkg-config --libs opencv4`
+LDFLAGS = -lcurl -lpthread -lssl -lcrypto -lspdlog -lfmt `pkg-config --libs opencv4`
 
 OBJS = main.o utils.o base64.o
 
