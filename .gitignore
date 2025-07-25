@@ -2,3 +2,12 @@ __pycache__/
 *.o
 c_cpp_tutorials/my_app
 cpp_opencv/show_image
+
+# Ignore compiled binaries with no extension
+basic-tutorial-*
+!*.c
+!*.png
+
+# Ignore playback binaries
+playback-tutorial-*
+!*.c
